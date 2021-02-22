@@ -2,3 +2,7 @@ org/example/web/dto/HelloResponseDtoTest.java
  org.example.web.dto.HelloResponseDtoTest
 org/example/web/HelloControllerTest.java
  org.example.web.HelloControllerTest
+org/example/web/PostsApiControllerTest.java
+ org.example.web.PostsApiControllerTest
+org/example/web/dto/PostsRepositoryTest.java
+ org.example.web.dto.PostsRepositoryTest
