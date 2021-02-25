@@ -1,9 +1,9 @@
-package org.example.web.domain.posts;
+package org.example.domain.posts;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.example.web.domain.BaseTimeEntity;
+import org.example.domain.BaseTimeEntity;
 
 import javax.persistence.*;
 

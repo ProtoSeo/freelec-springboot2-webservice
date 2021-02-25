@@ -1,8 +1,8 @@
 package org.example.web;
 
 import org.assertj.core.api.Assertions;
-import org.example.web.domain.posts.Posts;
-import org.example.web.domain.posts.PostsRepository;
+import org.example.domain.posts.Posts;
+import org.example.domain.posts.PostsRepository;
 import org.example.web.dto.PostsSaveRequestDto;
 import org.example.web.dto.PostsUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;
