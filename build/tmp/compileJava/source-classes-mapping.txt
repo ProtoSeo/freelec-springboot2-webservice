@@ -2,9 +2,10 @@ org/example/domain/user/Role.java
  org.example.domain.user.Role
 org/example/web/dto/HelloResponseDto.java
  org.example.web.dto.HelloResponseDto
-org/example/config/auth/dto/OAuthAttributes.java
- org.example.config.auth.dto.OAuthAttributes
- org.example.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+org/example/config/WebConfig.java
+ org.example.config.WebConfig
+org/example/config/auth/LoginUserArgumentResolver.java
+ org.example.config.auth.LoginUserArgumentResolver
 org/example/web/dto/PostsUpdateRequestDto.java
  org.example.web.dto.PostsUpdateRequestDto
  org.example.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
@@ -18,28 +19,35 @@ org/example/web/dto/PostsListResponseDto.java
 org/example/domain/posts/Posts.java
  org.example.domain.posts.Posts
  org.example.domain.posts.Posts$PostsBuilder
-org/example/Application.java
- org.example.Application
+org/example/config/auth/CustomOAuth2UserService.java
+ org.example.config.auth.CustomOAuth2UserService
 org/example/web/dto/PostsResponseDto.java
  org.example.web.dto.PostsResponseDto
 org/example/domain/user/UserRepository.java
  org.example.domain.user.UserRepository
 org/example/web/IndexController.java
  org.example.web.IndexController
+org/example/config/auth/LoginUser.java
+ org.example.config.auth.LoginUser
 org/example/web/PostApiController.java
  org.example.web.PostApiController
 org/example/domain/posts/PostsRepository.java
  org.example.domain.posts.PostsRepository
 org/example/domain/BaseTimeEntity.java
  org.example.domain.BaseTimeEntity
-org/example/config/auth/CustomOAuth2UserService.java
- org.example.config.auth.CustomOAuth2UserService
+org/example/config/auth/SecurityConfig.java
+ org.example.config.auth.SecurityConfig
 org/example/config/auth/dto/SessionUser.java
  org.example.config.auth.dto.SessionUser
 org/example/domain/user/User.java
  org.example.domain.user.User
  org.example.domain.user.User$UserBuilder
-org/example/config/auth/SecurityConfig.java
- org.example.config.auth.SecurityConfig
+org/example/Application.java
+ org.example.Application
+org/example/config/auth/dto/OAuthAttributes.java
+ org.example.config.auth.dto.OAuthAttributes
+ org.example.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+org/example/config/JpaConfig.java
+ org.example.config.JpaConfig
 org/example/web/HelloController.java
  org.example.web.HelloController
