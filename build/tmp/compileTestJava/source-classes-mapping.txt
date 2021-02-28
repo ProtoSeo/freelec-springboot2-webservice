@@ -4,7 +4,7 @@ org/example/web/dto/HelloResponseDtoTest.java
  org.example.web.dto.HelloResponseDtoTest
 org/example/web/dto/PostsRepositoryTest.java
  org.example.web.dto.PostsRepositoryTest
-org/example/web/IndexControllerTest.java
- org.example.web.IndexControllerTest
 org/example/web/HelloControllerTest.java
  org.example.web.HelloControllerTest
+org/example/web/IndexControllerTest.java
+ org.example.web.IndexControllerTest
